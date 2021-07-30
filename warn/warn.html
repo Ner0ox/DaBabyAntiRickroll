@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#fff">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+    <link rel="shortcut icon" href="/icons/icon16.png" type="image/png">
+    <title>Rickroll warning!</title>
+    <style>
+
+        body {
+            --google-gray-700: rgb(95, 99, 104);
+            background: #fff;
+            color: var(--google-gray-700);
+            word-wrap: break-word;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 75%;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          body {
+            --google-gray-dark: rgb(155,160,165);
+            background: #202124;
+            color: var(--google-gray-dark);
+          }
+        }
+
+        .videoxd {
+            position: absolute;
+            top: 7rem;
+            left: 16%;
+        }
+
+    </style>
+</head>
+<body class="ssl">
+    <div class="interstitial-wrapper">
+        <div>
+            <div class="videoxd">
+                <video autoplay loop src="careful.mp4"></video>
+            </div>
+        </div>
+    </div>
+    <script src="warn.js"></script>
+</body>
+</html>

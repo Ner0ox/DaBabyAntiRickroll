@@ -1,0 +1,24 @@
+{
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["https://*.youtube.com/*"],
+            "run_at": "document_start"
+        }
+    ],
+    "name": "AntiDababyRickRoll",
+    "version": "1",
+    "description": "Anti rickroll, but dababy edition.",
+    "manifest_version": 2,
+    "web_accessible_resources": [
+        "warn/warn.html"
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
